@@ -9,10 +9,13 @@
 .csharp {
   display: none;
 }
+.header {
+  text-align: center;
+  margin-top: 70px;
+}
 body {
   background-color:#212121;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 p, h2, h3 {
   color:white;
@@ -23,14 +26,25 @@ p, h2, h3 {
   border-radius: 25px;
   border-color: rgb(207, 207, 207);
   border-style: double;
-  
+  width: 500px;
+  margin: auto;
 }
-
+.box{
+  margin-top: 25px;
+  text-align: center;
+}
 .form select {
   background-color: transparent;
   box-sizing: border-box;
   border-radius:  10px;
   color: white;
+}
+.form .select-selected {
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius:  10px;
+  color: white;
+  width: 10px;
 }
 
 label {
@@ -38,4 +52,12 @@ label {
   margin-right:5px;
   margin-left:30px;
   color: white;
+}
+input[type=submit] {
+  border-radius: 10px;
+  width: 70px;
+  text-align: center;
+  margin: auto;
+  display:block;
+  margin-bottom: 20px;
 }

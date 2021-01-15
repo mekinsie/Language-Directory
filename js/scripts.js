@@ -26,4 +26,11 @@ $(document).ready(function() {
     $(".python, .ruby").hide();
     }
   });
+
+  $("#submit").hover(function(){
+    $(this).css("background-color", " rgb(45, 255, 45)");
+  }, function() {
+    $(this).css("background-color", "white");
+  });
+
 });
