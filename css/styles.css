@@ -38,13 +38,13 @@ p, h2, h3 {
   box-sizing: border-box;
   border-radius:  10px;
   color: white;
+  width: 120px;
 }
 .form .select-selected {
   background-color: transparent;
   box-sizing: border-box;
   border-radius:  10px;
   color: white;
-  width: 10px;
 }
 
 label {
