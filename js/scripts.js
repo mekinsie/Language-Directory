@@ -1,30 +1,17 @@
-const add = function(option1, option2, option3, option4, option5, option6, option7, option8, option9, option10, option11, option12, option13, option14, option15, option16, option17) {
-  return (option1 + option2 + option3 + option4 + option5 + option6 + option7 + option8 + option9 + option10 + option11 + option12 + option13 + option14 + option15 + option16 + option17)
+const add = function(option1, option3, option5, option8, option11, option15) {
+  return (option1 + option3 + option5 + option8 + option11 + option15)
 };
-
-  
 
 $(document).ready(function() { 
   $("form").submit(function (event) {
     event.preventDefault();
-    let option1 = parseInt($("input [name=code]:checked", "#codeyes").val());
-    let option2 = parseInt($("input [name=code]:checked","#codeno").val());
-    let option3 = parseInt($("input [name=pet]:checked","#petyes").val());
-    let option4 = parseInt($("input [name=pet]:checked","#petno").val());
-    let option5 = parseInt($("option [name=hand]:selected","#right").val());
-    let option6 = parseInt($("option [name=hand]:selected","#left").val());
-    let option7 = parseInt($("option [name=hand]:selected", "#both").val());
-    let option8 = parseInt($("option [name=coffee]:selected", "#coffeeyes").val());
-    let option9 = parseInt($("option [name=coffee]:selected","#coffeeno").val());
-    let option10 = parseInt($("option [name=coffee]:selected","#coffeesometimes").val());
-    let option11 = parseInt($("option [name=sleep]:selected", "#back").val());
-    let option12 = parseInt($("option [name=sleep]:selected", "#side").val());
-    let option13 = parseInt($("option [name=sleep]:selected", "#front").val());
-    let option14 = parseInt($("option [name=sleep]:selected", "#idontsleep").val());
-    let option15 = parseInt($("option [name=tech]:selected", "#microsoft").val());
-    let option16 = parseInt($("option [name=tech]:selected", "#apple").val());
-    let option17 = parseInt($("option [name=tech]:selected", "#neither").val());
-    let result = (add(option1, option2, option3, option4, option5, option6, option7, option8, option9, option10, option11, option12, option13, option14, option15, option16, option17));
+    let option1 = parseInt($("input:radio[name=code]:checked").val());
+    let option3 = parseInt($("input:radio[name=pet]:checked").val());
+    let option5 = parseInt($("#hand option:selected").val());
+    let option8 = parseInt($("#coffee option:selected").val());
+    let option11 = parseInt($("#sleep option:selected").val());
+    let option15 = parseInt($("#tech option:selected").val());
+    let result = (add(option1, option3, option5, option8, option11, option15));
    
    
     if (result <= 4) {
