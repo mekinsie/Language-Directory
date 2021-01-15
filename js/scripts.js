@@ -14,15 +14,15 @@ $(document).ready(function() {
     let result = (add(option1, option2, option3, option4, option5, option6));
 
     if (result <= 3) {
-    $(".ruby").show();
+    $(".ruby").fadeIn();
     $(".python, .csharp").hide();
     } 
     else if (result = 4 && result <= 7) {
-    $(".python").show();
+    $(".python").fadeIn();
     $(".ruby, .csharp").hide();
     } 
     else if (result = 8 && result <= 12) {
-    $(".csharp").show();
+    $(".csharp").fadeIn();
     $(".python, .ruby").hide();
     }
   });

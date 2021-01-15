@@ -24,7 +24,7 @@ p, h2, h3 {
   background-color: rgb(48, 48, 48);
   box-sizing: border-box;
   border-radius: 25px;
-  border-color: rgb(207, 207, 207);
+  border-color: rgb(138, 138, 138);
   border-style: double;
   width: 500px;
   margin: auto;
@@ -37,7 +37,7 @@ p, h2, h3 {
   background-color: transparent;
   box-sizing: border-box;
   border-radius:  10px;
-  color: white;
+  color:rgb(41, 236, 41);
   width: 120px;
 }
 .form .select-selected {
