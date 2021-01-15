@@ -24,16 +24,16 @@ $(document).ready(function() {
     const option15 = parseInt($("#microsoft").val());
     const option16 = parseInt($("#apple").val());
     const option17 = parseInt($("#neither").val());
-    const result = (add(option1, option2, option3, option4, option5, option6, option7, option8, option9, option10, option11, option12, option13, option14, option15, option16, option17));
+    let result = (add(option1, option2, option3, option4, option5, option6, option7, option8, option9, option10, option11, option12, option13, option14, option15, option16, option17));
     if (result <= 4) {
       $(".ruby").show();
       $(".python, .csharp").hide();
     }
-    if (result = 5 <= 9) {
+    if (result = 5 && result <= 9) {
       $(".python").show();
       $(".ruby, .csharp").hide();
     }
-    if (result = 10 <= 13) {
+    if (result = 10 && result <= 13) {
       $(".csharp").show();
       $(".python, .ruby").hide();
     }
