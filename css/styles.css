@@ -10,15 +10,20 @@
   display: none;
 }
 
-
+body {
+  background-color: #38369A;
+}
+p, h2, h3 {
+  color:white;
+}
 .form {
-  background-color: rgb(243, 221, 221);
+  background-color: #A9DBBB;
   box-sizing: border-box;
   
 }
 
 .form select {
-  background-color: rgb(243, 221, 221);
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   border-radius:  10px;
 }
