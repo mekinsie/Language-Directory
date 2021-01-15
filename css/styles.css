@@ -9,27 +9,33 @@
 .csharp {
   display: none;
 }
-
 body {
-  background-color: #38369A;
+  background-color:#212121;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 p, h2, h3 {
   color:white;
 }
 .form {
-  background-color: #A9DBBB;
+  background-color: rgb(48, 48, 48);
   box-sizing: border-box;
+  border-radius: 25px;
+  border-color: rgb(207, 207, 207);
+  border-style: double;
   
 }
 
 .form select {
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   box-sizing: border-box;
   border-radius:  10px;
+  color: white;
 }
 
 label {
   margin-bottom: 30px;
   margin-right:5px;
   margin-left:30px;
+  color: white;
 }
