@@ -8,6 +8,7 @@
 
 * _HTML5_
 * _CSS_
+* _Bootstrap_
 * _JavaScript_
 * _jQuery_
 
