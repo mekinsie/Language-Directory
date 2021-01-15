@@ -12,8 +12,11 @@
     <h2>Unsure about what programming language to learn? Complete this quiz to determine the best fit language for you.</h2>
     <div class="form">
       <form>
-        <label for="age">How old are you?</label>
-        <input name="age" type="number" id="age">
+        <p>Have you coded before?</p>
+        <label for="code">yes</label>
+        <input id="codeyes" name="code" type="radio"  value="1">
+        <label for="code">no</label>
+        <input id="codeno" name="code" type="radio"  value="0">
     
         <p>Do you have a pet?</p>
         <label for="pet">yes</label>
@@ -27,6 +30,30 @@
           <option value="2">Left</option>
           <option value="0">Ambidextrous</option>
         </select>
+        <br>
+        <label for="coffee">Do you drink coffee?</label>
+        <select name="coffee">
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+          <option value="0">Sometimes</option>
+        </select>
+
+        <label for="sleep">What side do you sleep on?</label>
+        <select name="sleep">
+          <option value="1">Back</option>
+          <option value="2">Side</option>
+          <option value="0">Front</option>
+          <option value="3">I don't sleep</option>
+        </select>
+
+        <label for="tech">Microsoft or Apple?</label>
+        <select name="tech">
+          <option value="1">Microsoft</option>
+          <option value="2">Apple</option>
+          <option value="0">Neither</option>
+        </select>
+
+
 
 
       </form>
