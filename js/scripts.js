@@ -1,30 +1,29 @@
-const add = function(option1, option3, option5, option8, option11, option15) {
-  return (option1 + option3 + option5 + option8 + option11 + option15)
+const add = function(option1, option2, option3, option4, option5, option6) {
+  return (option1 + option2 + option3 + option4 + option5 + option6)
 };
 
 $(document).ready(function() { 
   $("form").submit(function (event) {
     event.preventDefault();
     let option1 = parseInt($("input:radio[name=code]:checked").val());
-    let option3 = parseInt($("input:radio[name=pet]:checked").val());
-    let option5 = parseInt($("#hand option:selected").val());
-    let option8 = parseInt($("#coffee option:selected").val());
-    let option11 = parseInt($("#sleep option:selected").val());
-    let option15 = parseInt($("#tech option:selected").val());
-    let result = (add(option1, option3, option5, option8, option11, option15));
-   
-   
-    if (result <= 4) {
-      $(".ruby").show();
-      $(".python, .csharp").hide();
+    let option2 = parseInt($("input:radio[name=pet]:checked").val());
+    let option3 = parseInt($("#hand option:selected").val());
+    let option4 = parseInt($("#coffee option:selected").val());
+    let option5 = parseInt($("#sleep option:selected").val());
+    let option6 = parseInt($("#tech option:selected").val());
+    let result = (add(option1, option2, option3, option4, option5, option6));
 
-    } else if (result = 5 && result <= 9) {
-      $(".python").show();
-      $(".ruby, .csharp").hide();
-    }
-      else if (result = 10 && result <= 13) {
-      $(".csharp").show();
-      $(".python, .ruby").hide();
+    if (result <= 3) {
+    $(".ruby").show();
+    $(".python, .csharp").hide();
+    } 
+    else if (result = 4 && result <= 7) {
+    $(".python").show();
+    $(".ruby, .csharp").hide();
+    } 
+    else if (result = 8 && result <= 12) {
+    $(".csharp").show();
+    $(".python, .ruby").hide();
     }
   });
 });
