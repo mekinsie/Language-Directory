@@ -9,3 +9,25 @@
 .csharp {
   display: none;
 }
+
+input {
+  width: ;
+}
+
+.form {
+  background-color: rgb(243, 221, 221);
+  box-sizing: border-box;
+  
+}
+
+.form select {
+  background-color: rgb(243, 221, 221);
+  box-sizing: border-box;
+  border-radius:  10px;
+}
+
+label {
+  margin-bottom: 30px;
+  margin-right:5px;
+  margin-left:30px;
+}
