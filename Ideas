@@ -30,5 +30,6 @@ age: < 22 < 28 (between 22 and 28)
 
 
 c#:
-pet: none 
-age: > 28
+
+
+taking input values and adding them together
