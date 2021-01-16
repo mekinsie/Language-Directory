@@ -18,8 +18,11 @@ body {
   background-color:#212121;
   font-family: 'Inconsolata', monospace;
 }
-p, h2, h3 {
+p, h3 {
   color:white;
+}
+h3 {
+  margin-top: 30px;
 }
 .form {
   background-color: rgb(48, 48, 48);
@@ -33,6 +36,12 @@ p, h2, h3 {
 .box{
   margin-top: 25px;
   text-align: center;
+}
+.box2 {
+  width: 700px;
+  box-sizing: border-box;
+  margin: auto;
+
 }
 .form select {
   background-color: transparent;
