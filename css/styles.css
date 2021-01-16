@@ -61,15 +61,3 @@ input[type=submit] {
   display:block;
   margin-bottom: 20px;
 }
-
-.header p {
-  overflow: hidden;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation: 
-    typing 2s steps(50, end);
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
