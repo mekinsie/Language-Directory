@@ -4,7 +4,6 @@ const add = function(option1, option2, option3, option4, option5, option6) {
 
 $(document).ready(function() { 
   $(".form").slideDown();
-  
   $("form").submit(function (event) {
     event.preventDefault();
     let option1 = parseInt($("input:radio[name=code]:checked").val());
@@ -34,4 +33,7 @@ $(document).ready(function() {
   }, function() {
     $(this).css("background-color", "white");
   });
+  $(".header").typeIt ({
+    typeSpeed:80})
+
 });
