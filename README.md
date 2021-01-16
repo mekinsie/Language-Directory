@@ -1,7 +1,7 @@
 # _Programming Language Suggestor_
 
 #### _This application is to help you decide what programming language you might want to learn first._
-<img src=img/ruby.png alt="Ruby logo" height="150px"> <img src=img/python.png alt="Python logo" height="150x"><img src=img/csharp.jpg alt="C# logo" height="150px">  
+<img src=img/ruby.png alt="Ruby logo" height="150px"> <img src=img/python.png alt="Python logo" height="150x"> <img src=img/csharp.jpg alt="C# logo" height="150px">  
 
 #### By _**Mekinsie Callahan**_
 
@@ -20,7 +20,7 @@ _Are you unsure about what programming language to start learning? This applicat
 ## Setup/Installation Requirements
 
 
-* _Go to https://github.com/mekinsie/Language-Suggester_
+* _Go to https://github.com/mekinsie/language-suggester_
 * _Navigate to and click the green "Code" button on middle upper right part of webpage._
 * _Copy the HTTPs address to your clipboard._
 * _Open terminal or bash and navigate to the directory you wish to download the repo to._

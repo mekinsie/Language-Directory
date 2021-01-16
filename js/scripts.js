@@ -3,6 +3,8 @@ const add = function(option1, option2, option3, option4, option5, option6) {
 };
 
 $(document).ready(function() { 
+  $(".form").slideDown();
+  
   $("form").submit(function (event) {
     event.preventDefault();
     let option1 = parseInt($("input:radio[name=code]:checked").val());
@@ -14,19 +16,19 @@ $(document).ready(function() {
     let result = (add(option1, option2, option3, option4, option5, option6));
 
     if (result <= 3) {
-    $(".ruby").fadeIn();
+    $(".ruby").slideDown();
     $(".python, .csharp").hide();
     } 
     else if (result = 4 && result <= 7) {
-    $(".python").fadeIn();
+    $(".python").slideDown();
     $(".ruby, .csharp").hide();
     } 
     else if (result = 8 && result <= 12) {
-    $(".csharp").fadeIn();
+    $(".csharp").slideDown();
     $(".python, .ruby").hide();
     }
   });
-  
+
   $("#submit").hover(function(){
     $(this).css("background-color", " rgb(45, 255, 45)");
   }, function() {
