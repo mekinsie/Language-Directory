@@ -1,11 +1,9 @@
 .ruby {
   display: none;
 }
-
 .python{
   display: none;
 }
-
 .csharp {
   display: none;
 }
@@ -38,7 +36,7 @@ p, h2, h3 {
   box-sizing: border-box;
   border-radius:  10px;
   color:rgb(41, 236, 41);
-  width: 120px;
+  width: 130px;
 }
 .form .select-selected {
   background-color: transparent;
@@ -46,12 +44,11 @@ p, h2, h3 {
   border-radius:  10px;
   color: white;
 }
-
 label {
   margin-bottom: 30px;
   margin-right:5px;
   margin-left:30px;
-  color: white;
+  color:rgb(41, 236, 41);
 }
 input[type=submit] {
   border-radius: 10px;

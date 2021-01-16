@@ -1,9 +1,10 @@
 # _Programming Language Suggestor_
 
 #### _This application is to help you decide what programming language you might want to learn first._
+<img src=img/ruby.png alt="Ruby logo" height="150px"> <img src=img/python.png alt="Python logo" height="150x"><img src=img/csharp.jpg alt="C# logo" height="150px">  
 
 #### By _**Mekinsie Callahan**_
-<img src=img/ruby.png alt="Ruby logo" height="150px"> <img src=img/python.png alt="Python logo" height="150x"><img src=img/csharp.jpg alt="C# logo" height="150px">  
+
 ## Technologies Used
 
 * _HTML5_
@@ -14,7 +15,7 @@
 
 ## Description
 
-_Are you unsure of what programming language to start learning? This application can help you decide! A series of questions will be asked and a language will be suggested based on your answers. The possible languages are Ruby, Python and C#._
+_Are you unsure about what programming language to start learning? This application can help you decide! A series of questions will be asked and a language will be suggested based on your answers. The possible languages are Ruby, Python and C#._
 
 ## Setup/Installation Requirements
 
