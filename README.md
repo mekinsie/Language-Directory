@@ -25,7 +25,7 @@ _Are you unsure about what programming language to start learning? This applicat
 * _Copy the HTTPs address to your clipboard._
 * _Open terminal or bash and navigate to the directory you wish to download the repo to._
 * _Type into the terminal "git clone [paste HTTPs address] and press enter._
-* _Open the file named "index.html" in the directory you just downloaded the repo to. This will open the portfolio page in your default web browser._
+* _Open the file named "index.html" in the directory you just downloaded the repo to. This will open the Language Selecter page in your default web browser._
 
 ## Known Bugs
 
@@ -35,7 +35,7 @@ _Are you unsure about what programming language to start learning? This applicat
 
 _GPL_
 
-Copyright (c) 2020 **_Mekinsie Callahan_**
+Copyright (c) 2021 **_Mekinsie Callahan_**
 
 ## Contact Information
 
