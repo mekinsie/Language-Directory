@@ -18,7 +18,7 @@
 _Are you unsure about what programming language to start learning? This application can help you decide! A series of questions will be asked and a language will be suggested based on your answers. The possible languages are Ruby, Python and C#._
 
 ## Setup/Installation Requirements
-
+* _This project can be directly viewed on <a href="https://mekinsie.github.io/language-suggester" target="_blank">github pages</a>._
 
 * _Go to https://github.com/mekinsie/language-suggester_
 * _Navigate to and click the green "Code" button on middle upper right part of webpage._
